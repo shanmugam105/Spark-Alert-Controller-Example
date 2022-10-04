@@ -8,26 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		5A092EA428EBCC0000D36378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A092EA328EBCC0000D36378 /* AppDelegate.swift */; };
-		5A092EA628EBCC0000D36378 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A092EA528EBCC0000D36378 /* SceneDelegate.swift */; };
-		5A092EA828EBCC0000D36378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A092EA728EBCC0000D36378 /* ViewController.swift */; };
+		5A092EA828EBCC0000D36378 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A092EA728EBCC0000D36378 /* HomeViewController.swift */; };
 		5A092EAB28EBCC0000D36378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A092EA928EBCC0000D36378 /* Main.storyboard */; };
 		5A092EAD28EBCC0200D36378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A092EAC28EBCC0200D36378 /* Assets.xcassets */; };
 		5A092EB028EBCC0200D36378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A092EAE28EBCC0200D36378 /* LaunchScreen.storyboard */; };
+		5A092EC528EC7D5E00D36378 /* SparkAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A092EBD28EC7D5E00D36378 /* SparkAlertController.framework */; };
+		5A092EC628EC7D5E00D36378 /* SparkAlertController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5A092EBD28EC7D5E00D36378 /* SparkAlertController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5A092ECF28EC89E000D36378 /* SparkAlertController in Frameworks */ = {isa = PBXBuildFile; productRef = 5A092ECE28EC89E000D36378 /* SparkAlertController */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A092EC328EC7D5E00D36378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A092E9828EBCC0000D36378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A092EBC28EC7D5E00D36378;
+			remoteInfo = SparkAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A092ECA28EC7D5E00D36378 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5A092EC628EC7D5E00D36378 /* SparkAlertController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5A092EA028EBCC0000D36378 /* Spark-Alert-Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spark-Alert-Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A092EA028EBCC0000D36378 /* Spark-Alert-Controller-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spark-Alert-Controller-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A092EA328EBCC0000D36378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A092EA528EBCC0000D36378 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A092EA728EBCC0000D36378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A092EA728EBCC0000D36378 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5A092EAA28EBCC0000D36378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A092EAC28EBCC0200D36378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A092EAF28EBCC0200D36378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A092EB128EBCC0200D36378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A092EBD28EC7D5E00D36378 /* SparkAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5A092E9D28EBCC0000D36378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A092EC528EC7D5E00D36378 /* SparkAlertController.framework in Frameworks */,
+				5A092ECF28EC89E000D36378 /* SparkAlertController in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A092EBA28EC7D5E00D36378 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +75,7 @@
 		5A092E9728EBCC0000D36378 = {
 			isa = PBXGroup;
 			children = (
-				5A092EA228EBCC0000D36378 /* Spark-Alert-Controller */,
+				5A092EA228EBCC0000D36378 /* Spark-Alert-Controller-Example */,
 				5A092EA128EBCC0000D36378 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,44 +83,85 @@
 		5A092EA128EBCC0000D36378 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A092EA028EBCC0000D36378 /* Spark-Alert-Controller.app */,
+				5A092EA028EBCC0000D36378 /* Spark-Alert-Controller-Example.app */,
+				5A092EBD28EC7D5E00D36378 /* SparkAlertController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A092EA228EBCC0000D36378 /* Spark-Alert-Controller */ = {
+		5A092EA228EBCC0000D36378 /* Spark-Alert-Controller-Example */ = {
 			isa = PBXGroup;
 			children = (
 				5A092EA328EBCC0000D36378 /* AppDelegate.swift */,
-				5A092EA528EBCC0000D36378 /* SceneDelegate.swift */,
-				5A092EA728EBCC0000D36378 /* ViewController.swift */,
+				5A092EA728EBCC0000D36378 /* HomeViewController.swift */,
 				5A092EA928EBCC0000D36378 /* Main.storyboard */,
+				5A092EB728EBCC5000D36378 /* Global */,
+			);
+			path = "Spark-Alert-Controller-Example";
+			sourceTree = "<group>";
+		};
+		5A092EB728EBCC5000D36378 /* Global */ = {
+			isa = PBXGroup;
+			children = (
 				5A092EAC28EBCC0200D36378 /* Assets.xcassets */,
 				5A092EAE28EBCC0200D36378 /* LaunchScreen.storyboard */,
 				5A092EB128EBCC0200D36378 /* Info.plist */,
 			);
-			path = "Spark-Alert-Controller";
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5A092EB828EC7D5E00D36378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		5A092E9F28EBCC0000D36378 /* Spark-Alert-Controller */ = {
+		5A092E9F28EBCC0000D36378 /* Spark-Alert-Controller-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A092EB428EBCC0200D36378 /* Build configuration list for PBXNativeTarget "Spark-Alert-Controller" */;
+			buildConfigurationList = 5A092EB428EBCC0200D36378 /* Build configuration list for PBXNativeTarget "Spark-Alert-Controller-Example" */;
 			buildPhases = (
 				5A092E9C28EBCC0000D36378 /* Sources */,
 				5A092E9D28EBCC0000D36378 /* Frameworks */,
 				5A092E9E28EBCC0000D36378 /* Resources */,
+				5A092ECA28EC7D5E00D36378 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A092EC428EC7D5E00D36378 /* PBXTargetDependency */,
+			);
+			name = "Spark-Alert-Controller-Example";
+			packageProductDependencies = (
+				5A092ECE28EC89E000D36378 /* SparkAlertController */,
+			);
+			productName = "Spark-Alert-Controller";
+			productReference = 5A092EA028EBCC0000D36378 /* Spark-Alert-Controller-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A092EBC28EC7D5E00D36378 /* SparkAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A092EC728EC7D5E00D36378 /* Build configuration list for PBXNativeTarget "SparkAlertController" */;
+			buildPhases = (
+				5A092EB828EC7D5E00D36378 /* Headers */,
+				5A092EB928EC7D5E00D36378 /* Sources */,
+				5A092EBA28EC7D5E00D36378 /* Frameworks */,
+				5A092EBB28EC7D5E00D36378 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Spark-Alert-Controller";
-			productName = "Spark-Alert-Controller";
-			productReference = 5A092EA028EBCC0000D36378 /* Spark-Alert-Controller.app */;
-			productType = "com.apple.product-type.application";
+			name = SparkAlertController;
+			productName = SparkAlertController;
+			productReference = 5A092EBD28EC7D5E00D36378 /* SparkAlertController.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,9 +176,12 @@
 					5A092E9F28EBCC0000D36378 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					5A092EBC28EC7D5E00D36378 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
-			buildConfigurationList = 5A092E9B28EBCC0000D36378 /* Build configuration list for PBXProject "Spark-Alert-Controller" */;
+			buildConfigurationList = 5A092E9B28EBCC0000D36378 /* Build configuration list for PBXProject "Spark-Alert-Controller-Example" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +190,15 @@
 				Base,
 			);
 			mainGroup = 5A092E9728EBCC0000D36378;
+			packageReferences = (
+				5A092ECD28EC89E000D36378 /* XCRemoteSwiftPackageReference "SparkAlertController" */,
+			);
 			productRefGroup = 5A092EA128EBCC0000D36378 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A092E9F28EBCC0000D36378 /* Spark-Alert-Controller */,
+				5A092E9F28EBCC0000D36378 /* Spark-Alert-Controller-Example */,
+				5A092EBC28EC7D5E00D36378 /* SparkAlertController */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A092EBB28EC7D5E00D36378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +228,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A092EA828EBCC0000D36378 /* ViewController.swift in Sources */,
+				5A092EA828EBCC0000D36378 /* HomeViewController.swift in Sources */,
 				5A092EA428EBCC0000D36378 /* AppDelegate.swift in Sources */,
-				5A092EA628EBCC0000D36378 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A092EB928EC7D5E00D36378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A092EC428EC7D5E00D36378 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A092EBC28EC7D5E00D36378 /* SparkAlertController */;
+			targetProxy = 5A092EC328EC7D5E00D36378 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5A092EA928EBCC0000D36378 /* Main.storyboard */ = {
@@ -288,7 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spark-Alert-Controller/Info.plist";
+				INFOPLIST_FILE = "Spark-Alert-Controller-Example/Global/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,7 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Spark-Alert-Controller/Info.plist";
+				INFOPLIST_FILE = "Spark-Alert-Controller-Example/Global/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,10 +438,68 @@
 			};
 			name = Release;
 		};
+		5A092EC828EC7D5E00D36378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sparkout-Tech-Solution-Pvt-Ltd..SparkAlertController";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A092EC928EC7D5E00D36378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sparkout-Tech-Solution-Pvt-Ltd..SparkAlertController";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A092E9B28EBCC0000D36378 /* Build configuration list for PBXProject "Spark-Alert-Controller" */ = {
+		5A092E9B28EBCC0000D36378 /* Build configuration list for PBXProject "Spark-Alert-Controller-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A092EB228EBCC0200D36378 /* Debug */,
@@ -346,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A092EB428EBCC0200D36378 /* Build configuration list for PBXNativeTarget "Spark-Alert-Controller" */ = {
+		5A092EB428EBCC0200D36378 /* Build configuration list for PBXNativeTarget "Spark-Alert-Controller-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A092EB528EBCC0200D36378 /* Debug */,
@@ -355,7 +517,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5A092EC728EC7D5E00D36378 /* Build configuration list for PBXNativeTarget "SparkAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A092EC828EC7D5E00D36378 /* Debug */,
+				5A092EC928EC7D5E00D36378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A092ECD28EC89E000D36378 /* XCRemoteSwiftPackageReference "SparkAlertController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shanmugam105/SparkAlertController.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A092ECE28EC89E000D36378 /* SparkAlertController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A092ECD28EC89E000D36378 /* XCRemoteSwiftPackageReference "SparkAlertController" */;
+			productName = SparkAlertController;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A092E9828EBCC0000D36378 /* Project object */;
 }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sparkalertcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shanmugam105/SparkAlertController.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "17c859e7b19053470e436a4a521b4085e347ef75"
+      }
+    }
+  ],
+  "version" : 2
+}
